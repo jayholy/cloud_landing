@@ -14,7 +14,7 @@ const About = () => {
             eaque. Recusandae, quidem.
           </p>
         </div>
-        <div className="grid  md:grid-cols-3 text-center gap-1 px-2">
+        <div className="grid  md:grid-cols-3  text-center gap-5 px-2">
           <div className='border py-8 rounded-xl  shadow-xl '>
             <p className='text-indigo-500 text-6xl font-bold'>100%</p>
             <p classname='text-gray-400 mt-2'>  Completion</p>

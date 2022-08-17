@@ -5,7 +5,7 @@ import support from "../assets/support.jpg";
 
 const Support = () => {
   return (
-    <div className="w-full h-full mt-24">
+    <div name='support' className="w-full h-full mt-24">
       <div
         className="w-full absolute
       h-[700px] bg-gray-900/90"
@@ -17,19 +17,19 @@ const Support = () => {
         />
       </div>
       <div className="max-w-[1240px] mx-auto text-white relative">
-        <div className="px-4 py12">
+        <div className="px-4 ">
           <h2 className="py-8 text-3xl text-slate-300 uppercase text-center">
             Support
           </h2>
           <p className="text-5xl font-bold py-6 text-center">
-            Finding the rigth team
+            Finding the right team
           </p>
           <p className="text-3xl py-4 text-slate-300 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
             tempore dolorum vero, qui reiciendis, tenetur nisi sequi fugit, esse
             error quo? Veniam ipsum fuga totam consequuntur quasi pariatur
             voluptatibus obcaecati hic excepturi, enim voluptatem tempore! Animi
-            similique provident consequuntur eaque.
+           .
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
@@ -44,7 +44,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600">
+              <p className="flex items-center cursor-pointer text-indigo-600">
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>
@@ -60,7 +60,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600">
+              <p className="flex cursor-pointer items-center text-indigo-600">
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>
@@ -76,7 +76,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600">
+              <p className="flex items-center cursor-pointer text-indigo-600">
                 Contact Us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>

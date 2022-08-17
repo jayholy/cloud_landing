@@ -1,5 +1,6 @@
 import About from "./components/About";
 import All from "./components/All";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -15,6 +16,7 @@ function App() {
       <Support/>
       <All/>
       <Pricing/>
+      <Footer/>
     </>
   );
 }

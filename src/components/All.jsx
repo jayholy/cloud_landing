@@ -3,7 +3,7 @@ import React from "react";
 
 const All = () => {
   return (
-    <div className="w-full my-32">
+    <div name="plat" className="w-full my-32">
       <div className="max-w-[1240px] m-auto px-2">
         <h2 className="text-5xl font-bold text-center">All-In-One Platform</h2>
         <p className="text-2xl py-8 text-center  text-gray-400">
